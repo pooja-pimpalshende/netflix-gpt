@@ -33,6 +33,10 @@
 - TMD image cdn url
 - made browse page amazing with tailwind css
 - usePopularMovies custom hook
+- GPT search page
+- GPT search bar
+- Multi language feature in our app
+- Integrate GPT api
 
 # Features
 

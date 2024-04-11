@@ -4,9 +4,10 @@ import MovieCard from "./MovieCard";
 const MovieList = ({ title, movies }) => {
   if (!movies) return;
   return (
-    <div className="px-2">
+    <div className="px-1">
       <h1 className="text-lg py-4 text-white">{title}</h1>
-      <div className="flex overflow-x-auto">
+      {/* overflow-x-scroll was not working hence use scroll-container added it in index.css */}
+      <div className="scroll-container flex">
         <div className="flex">
           {movies?.map((movie) => (
             <MovieCard key={movie.id} posterPath={movie.poster_path} />

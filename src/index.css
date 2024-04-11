@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll-container {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch; /* optional: for smooth scrolling in iOS */
+}
+
+/* Hide scrollbar for Webkit browsers */
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
