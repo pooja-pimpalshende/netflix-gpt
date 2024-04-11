@@ -9,7 +9,7 @@ const MainContainer = () => {
   //early return because store might not update/ no movie in the store
   if (movies === null) return;
 
-  const mainMovie = movies[1];
+  const mainMovie = movies[0];
 
   const { original_title, overview, id } = mainMovie;
 

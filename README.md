@@ -37,6 +37,7 @@
 - GPT search bar
 - Multi language feature in our app
 - Integrate GPT api
+  - get api key https://platform.openai.com/api-keys
 
 # Features
 
