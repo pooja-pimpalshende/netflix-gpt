@@ -109,12 +109,12 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img src={BG_URL} alt="logo"></img>
+        <img className="h-full object-cover" src={BG_URL} alt="logo"></img>
       </div>
       <form
         //this prevent default stop submitting form right away
         onSubmit={(e) => e.preventDefault()}
-        className="absolute w-2/6 p-12 bg-black my-36 mx-auto right-0 left-0 text-white bg-opacity-80"
+        className=" w-full absolute md:w-2/6 p-12 bg-black my-36 mx-auto right-0 left-0 text-white bg-opacity-80"
       >
         <h1 className="font-bold text-3xl py-4">
           {isSignInForm ? "Sign In" : "Sign Up"}

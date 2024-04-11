@@ -38,6 +38,14 @@
 - Multi language feature in our app
 - Integrate GPT api
   - get api key https://platform.openai.com/api-keys
+  - not worked openAI tried ollama
+- fetched gpt movie suggestion from tmdb
+- created gpt slice added data there
+- reuse movie list component to make movie suggestion container
+- memoization
+- adding .env file
+- adding .env file to gitignore
+- Made our store responsive
 
 # Features
 
