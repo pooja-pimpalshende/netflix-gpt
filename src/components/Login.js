@@ -10,7 +10,7 @@ import {
 import { auth } from "../utils/firebase";
 import { addUser } from "../utils/userSlice";
 import { useDispatch } from "react-redux";
-import { USER_AVATAR } from "../utils/constants";
+import { BG_URL, USER_AVATAR } from "../utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -109,10 +109,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/6cefb2f5-90be-4f57-adc4-f6c3c579273d/f49fd31d-939e-4089-af50-f36ce583f1f6/NO-en-20240401-popsignuptwoweeks-perspective_alpha_website_large.jpg"
-          alt="logo"
-        ></img>
+        <img src={BG_URL} alt="logo"></img>
       </div>
       <form
         //this prevent default stop submitting form right away
